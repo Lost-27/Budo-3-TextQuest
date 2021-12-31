@@ -1,6 +1,3 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -25,15 +22,11 @@ public class TextQuest : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Alpha1))
-        {
-            SetStep(_currentStep.FirstStep);
-        }
+        int nextStepNumber = GetStepNumber();
 
-        if (Input.GetKeyDown(KeyCode.Alpha2))
-        {
-            SetStep(_currentStep.SecondStep);
-        }
+        if (nextStepNumber == -1)
+            return;
+        SetStep(nextStepNumber);
     }
 
     #endregion
@@ -42,10 +35,55 @@ public class TextQuest : MonoBehaviour
 
     private void SetStep(Step nextStep)
     {
-        if(nextStep==null)
+        if (nextStep == null)
             return;
+           
         _currentStep = nextStep;
         ContentLabel.text = _currentStep.Content;
+    }
+
+    private void SetStep(int nextStepNumberIndex)
+    {
+        if (IsInvalidIndex(nextStepNumberIndex))
+            return;
+        
+        Step nextStep = _currentStep.Steps[nextStepNumberIndex];
+        SetStep(nextStep);
+    }
+
+    private bool IsInvalidIndex(int nextStepNumberIndex)
+    {
+        return nextStepNumberIndex < 0 || nextStepNumberIndex > _currentStep.Steps.Length - 1;
+    }
+
+    private int GetStepNumber()
+    {
+        if (Input.GetKeyDown(KeyCode.Alpha1))
+        {
+            return 0;
+        }
+        
+        if (Input.GetKeyDown(KeyCode.Alpha2))
+        {
+            return 1;
+        }
+        
+        if (Input.GetKeyDown(KeyCode.Alpha3))
+        {
+            return 2;
+        }
+        
+        if (Input.GetKeyDown(KeyCode.Alpha4))
+        {
+            return 3;
+        }
+        
+        if (Input.GetKeyDown(KeyCode.Alpha5))
+        {
+            return 4;
+        }
+
+        return -1;
     }
 
     #endregion

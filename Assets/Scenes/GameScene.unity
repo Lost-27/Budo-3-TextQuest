@@ -203,8 +203,9 @@ MonoBehaviour:
     1. Step1
 
     2. Step2'
-  FirstStep: {fileID: 352649413}
-  SecondStep: {fileID: 675489078}
+  Steps:
+  - {fileID: 352649413}
+  - {fileID: 675489078}
 --- !u!4 &56965443
 Transform:
   m_ObjectHideFlags: 0
@@ -406,8 +407,7 @@ MonoBehaviour:
     1. InitStep
 
     2. Step2'
-  FirstStep: {fileID: 56965442}
-  SecondStep: {fileID: 675489078}
+  Steps: []
 --- !u!4 &352649414
 Transform:
   m_ObjectHideFlags: 0
@@ -638,8 +638,57 @@ MonoBehaviour:
     1. FinishStep
 
     2. InitStep'
-  FirstStep: {fileID: 1206263517}
-  SecondStep: {fileID: 56965442}
+  Steps: []
+--- !u!1 &936010389
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 936010390}
+  - component: {fileID: 936010391}
+  m_Layer: 0
+  m_Name: Step3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &936010390
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 936010389}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1466474568}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &936010391
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 936010389}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9e761fe693d4aa696edea8ce6304b78, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Content: 'Step2
+
+
+    1. FinishStep
+
+    2. InitStep'
+  Steps: []
 --- !u!1 &946567752
 GameObject:
   m_ObjectHideFlags: 0
@@ -925,7 +974,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1466474568}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1206263517
 MonoBehaviour:
@@ -940,8 +989,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Content: FinishStep. Congrats!
-  FirstStep: {fileID: 0}
-  SecondStep: {fileID: 0}
+  Steps: []
 --- !u!1 &1466474567
 GameObject:
   m_ObjectHideFlags: 0
@@ -972,6 +1020,7 @@ Transform:
   - {fileID: 56965443}
   - {fileID: 352649414}
   - {fileID: 675489077}
+  - {fileID: 936010390}
   - {fileID: 1206263516}
   m_Father: {fileID: 0}
   m_RootOrder: 4
