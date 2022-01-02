@@ -1,11 +1,19 @@
 using System;
 using UnityEngine;
 
-public class Step: MonoBehaviour
+public class Step : MonoBehaviour
 {
-        [TextArea(6,10)]
-        public string Content;
+    #region Variables
+    [TextArea(6, 10)] 
+    public string Content;
 
-        public Step[] Steps;
-        
+    public string LocationName;
+    public Sprite LocationImage;
+
+    public Step[] Steps;
+
+    
+
+    #endregion
+    
 }

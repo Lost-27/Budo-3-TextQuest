@@ -6,6 +6,10 @@ public class TextQuest : MonoBehaviour
     #region Variables
 
     public Text ContentLabel;
+    public Text LocationLabel;
+    
+    public Image LocationImage;
+    
     public Step InitStep;
 
     private Step _currentStep;
@@ -40,6 +44,8 @@ public class TextQuest : MonoBehaviour
            
         _currentStep = nextStep;
         ContentLabel.text = _currentStep.Content;
+        LocationLabel.text = _currentStep.LocationName;
+        LocationImage.sprite = _currentStep.LocationImage;
     }
 
     private void SetStep(int nextStepNumberIndex)
@@ -55,6 +61,10 @@ public class TextQuest : MonoBehaviour
     {
         return nextStepNumberIndex < 0 || nextStepNumberIndex > _currentStep.Steps.Length - 1;
     }
+    // private void UpdateCurrentLocation(string currentLocation)
+    // {
+    //     LocationLabel.text = currentLocation;
+    // }
 
     private int GetStepNumber()
     {
