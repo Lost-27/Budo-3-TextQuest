@@ -170,6 +170,57 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &25273373
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 25273375}
+  - component: {fileID: 25273374}
+  m_Layer: 0
+  m_Name: Jungle (2.0) (4)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &25273374
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 25273373}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9e761fe693d4aa696edea8ce6304b78, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Content: "\u0412\u044B \u0437\u0430\u0431\u0438\u0440\u0430\u0435\u0442\u0435 \u0442\u043E\u043F\u043E\u0440.
+    \u041C\u043E\u0436\u0435\u0442 \u043E\u043D \u043F\u0440\u0438\u0433\u043E\u0434\u0438\u0442\u0441\u044F
+    \u0434\u043B\u044F \u043F\u043E\u0441\u0442\u0440\u043E\u0439\u043A\u0438 \u043F\u043B\u043E\u0442\u0430??\n\n1
+    - \u041D\u0430\u0437\u0430\u0434 "
+  LocationName: "\u0414\u0436\u0443\u043D\u0433\u043B\u0438"
+  LocationImage: {fileID: 21300000, guid: 876028144a72d3c45838077540f0b695, type: 3}
+  Steps:
+  - {fileID: 977378049}
+--- !u!4 &25273375
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 25273373}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 977378048}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &56965441
 GameObject:
   m_ObjectHideFlags: 0
@@ -263,7 +314,7 @@ MonoBehaviour:
     \u0441\u0435\u0431\u044F\n2 - \u041F\u0440\u043E\u0434\u043E\u043B\u0436\u0438\u0442\u044C
     \u043F\u0443\u0442\u044C\n3 - \u0418\u0434\u0442\u0438 \u043D\u0430\u0437\u0430\u0434"
   LocationName: "\u041F\u043B\u044F\u0436"
-  LocationImage: {fileID: 0}
+  LocationImage: {fileID: 21300000, guid: 317f1d2768c0c5a41b9b15be004c4e2c, type: 3}
   Steps:
   - {fileID: 1652060803}
   - {fileID: 919101014}
@@ -362,65 +413,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 167219866}
   m_CullTransparentMesh: 1
---- !u!1 &232347998
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 232347999}
-  - component: {fileID: 232348000}
-  m_Layer: 0
-  m_Name: Jungli (1)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &232347999
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 232347998}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 2012228259}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &232348000
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 232347998}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d9e761fe693d4aa696edea8ce6304b78, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Content: "\u0412 \u0434\u0436\u0443\u043D\u0433\u043B\u044F\u0445 \u043D\u0430
-    \u0432\u0430\u0441 \u043D\u0430\u0431\u0440\u0430\u0441\u044B\u0432\u0430\u0435\u0442\u0441\u044F
-    \u043B\u0435\u043E\u043F\u0430\u0440. \u041E\u0434\u043D\u0430\u043A\u043E \u0432\u044B
-    \u0443\u0441\u043F\u0435\u0432\u0430\u0439\u0442\u0435 \u0432 \u043F\u043E\u0441\u043B\u0435\u0434\u043D\u0438\u0435
-    \u0441\u0443\u043A\u0443\u043D\u0434\u044B \u0438\u0441\u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u044C
-    \u043F\u0438\u0441\u0442\u043E\u043B\u0435\u0442 \u0438 \u0443\u0434\u0430\u0447\u043D\u044B\u043C
-    \u0432\u044B\u0441\u0442\u0440\u0435\u043B\u043E\u043C \u043F\u043E\u0440\u0430\u0437\u0438\u0442\u044C
-    \u0437\u0432\u0435\u0440\u044F.\n\n1 - \u041F\u0440\u043E\u0434\u043E\u043B\u0436\u0438\u0442\u044C
-    \u043F\u0443\u0442\u044C \u043F\u043E \u0434\u0436\u0443\u043D\u0433\u043B\u044F\u043C\n2
-    - \u041E\u0441\u043C\u043E\u0442\u0440\u0435\u0442\u044C \u0437\u0432\u0435\u0440\u044F\n3
-    - \u0412\u0435\u0440\u043D\u0443\u0442\u044C\u0441\u044F \u043D\u0430 \u043F\u043B\u044F\u0436,
-    \u0447\u0442\u043E\u0431\u044B \u043E\u0441\u043C\u043E\u0442\u0440\u0435\u0442\u044C\u0441\u044F
-    \u043F\u043E\u043B\u0443\u0447\u0448\u0435"
-  LocationName: "\u0414\u0436\u0443\u043D\u0433\u043B\u0438"
-  LocationImage: {fileID: 0}
-  Steps: []
 --- !u!1 &248506340
 GameObject:
   m_ObjectHideFlags: 0
@@ -524,13 +516,13 @@ MonoBehaviour:
     \u043D\u0430\u0441\u0442\u0440\u043E\u0435\u043D\u0438\u0435, \u043D\u043E \u0436\u0430\u0436\u0434\u0430
     \u0443\u0441\u0438\u043B\u0438\u043B\u0430\u0441\u044C\n\n1 - \u0412\u044B\u043F\u0438\u0442\u044C
     \u043D\u0435\u043C\u043D\u043E\u0433\u043E \u0440\u043E\u043C\u0430 \u0434\u043B\u044F
-    \u0443\u0442\u0430\u043B\u0435\u043D\u0438\u044F \u0436\u0430\u0436\u0434\u044B\n2
+    \u0443\u0442\u043E\u043B\u0435\u043D\u0438\u044F \u0436\u0430\u0436\u0434\u044B\n2
     - \u041F\u0440\u043E\u0432\u0435\u0440\u0438\u0442\u044C \u0434\u0436\u0443\u043D\u0433\u0438\n"
   LocationName: "\u041F\u043B\u044F\u0436 2"
-  LocationImage: {fileID: 0}
+  LocationImage: {fileID: 21300000, guid: b502f0bbd71d039408c120b95448773c, type: 3}
   Steps:
-  - {fileID: 296379971}
-  - {fileID: 2012228260}
+  - {fileID: 2017469391}
+  - {fileID: 1127697362}
 --- !u!1 &334606824
 GameObject:
   m_ObjectHideFlags: 0
@@ -637,9 +629,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Content: "\u0412\u044B \u043F\u0440\u043E\u0441\u044B\u043F\u0430\u0435\u0442\u0435\u0441\u044C
-    \u043D\u0430 \u043F\u043B\u044F\u0436\u0435. \u0412\u0430\u0448\u0438 \u0434\u0435\u0439\u0441\u0442\u0432\u0438\u044F...\n\n1
-    - \u041F\u0440\u043E\u0439\u0442\u0438\u0441\u044C \u0432\u0434\u043E\u043B\u044C
-    \u0431\u0435\u0440\u0435\u0433\u0430\n2 - \u041F\u0440\u043E\u0432\u0435\u0440\u0438\u0442\u044C
+    \u043D\u0430 \u043F\u043B\u044F\u0436\u0435. \u0412\u0430\u0441 \u0432\u044B\u0431\u0440\u043E\u0441\u0438\u043B\u043E
+    \u043D\u0430 \u043D\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u043D\u044B\u0439
+    \u043E\u0441\u0442\u0440\u043E\u0432. \u041C\u043E\u0440\u0435 \u0431\u044B\u043B\u043E
+    \u0441\u043F\u043E\u043A\u043E\u0439\u043D\u044B\u043C.\n\u0412\u0430\u0448\u0438
+    \u0434\u0435\u0439\u0441\u0442\u0432\u0438\u044F:\n\n1 - \u041F\u0440\u043E\u0439\u0442\u0438\u0441\u044C
+    \u0432\u0434\u043E\u043B\u044C \u0431\u0435\u0440\u0435\u0433\u0430\n2 - \u041F\u0440\u043E\u0432\u0435\u0440\u0438\u0442\u044C
     \u0434\u0436\u0443\u043D\u0433\u0438\n3 - \u041E\u0441\u043C\u043E\u0442\u0440\u0435\u0442\u044C
     \u0441\u0435\u0431\u044F\n"
   LocationName: "\u041F\u043B\u044F\u0436"
@@ -944,7 +939,7 @@ MonoBehaviour:
     \u041A\u043E\u043D\u0435\u0446!)\n\n1 - \u041D\u0430\u0447\u0430\u0442\u044C
     \u0441\u043D\u0430\u0447\u0430\u043B\u043E"
   LocationName: "\u041F\u043B\u044F\u0436"
-  LocationImage: {fileID: 0}
+  LocationImage: {fileID: 21300000, guid: 06be5fd5814b2b94a8f102c19a40398b, type: 3}
   Steps:
   - {fileID: 56965442}
 --- !u!1 &657967222
@@ -1196,11 +1191,11 @@ MonoBehaviour:
     \u041F\u0435\u0440\u0435\u043C\u043E\u0442\u0430\u0432 \u0440\u0430\u043D\u0443
     \u043A\u0443\u0441\u043A\u043E\u043C \u0441\u0432\u043E\u0435\u0439 \u043E\u0434\u0435\u0436\u0434\u044B,
     \u0432\u044B \u043E\u0431\u0435\u0441\u043F\u0435\u0447\u0438\u043B\u0438 \u0432\u0440\u0435\u043C\u0435\u043D\u043D\u0443\u044E
-    \u043F\u043E\u043C\u043E\u0449\u044C\u044E)\n\n1 - \u041F\u0440\u043E\u0439\u0442\u0438\u0441\u044C
+    \u043F\u043E\u043C\u043E\u0449\u044C\u044E.\n\n1 - \u041F\u0440\u043E\u0439\u0442\u0438\u0441\u044C
     \u0432\u0434\u043E\u043B\u044C \u0431\u0435\u0440\u0435\u0433\u0430\n2 - \u041F\u0440\u043E\u0432\u0435\u0440\u0438\u0442\u044C
     \u0434\u0436\u0443\u043D\u0433\u0438"
   LocationName: "\u041F\u043B\u044F\u0436"
-  LocationImage: {fileID: 0}
+  LocationImage: {fileID: 21300000, guid: 1c55ee851dec59144bcf6d90603922a7, type: 3}
   Steps:
   - {fileID: 1421387376}
   - {fileID: 896092899}
@@ -1266,7 +1261,7 @@ GameObject:
   - component: {fileID: 896092900}
   - component: {fileID: 896092899}
   m_Layer: 0
-  m_Name: Jungli GM
+  m_Name: Jungle GM
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1286,12 +1281,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Content: "\u0412 \u0434\u0436\u0443\u043D\u0433\u043B\u044F\u0445 \u043D\u0430
     \u0432\u0430\u0441 \u043D\u0430\u0431\u0440\u0430\u0441\u044B\u0432\u0430\u0435\u0442\u0441\u044F
-    \u043B\u0435\u043E\u043F\u0430\u0440. \u0412\u044B \u0431\u044B\u043B\u0438 \u043D\u0435
-    \u0433\u043E\u0442\u043E\u0432\u044B \u043A \u0442\u0430\u043A\u043E\u0439 \u0441\u0438\u0442\u0443\u0430\u0446\u0438\u0438.
+    \u044F\u0433\u0443\u0430\u0440. \u0412\u044B \u0431\u044B\u043B\u0438 \u043D\u0435
+    \u0433\u043E\u0442\u043E\u0432\u044B \u043A \u044D\u0442\u043E\u0439 \u0432\u0441\u0442\u0440\u0435\u0447\u0435.
     \u042D\u0442\u043E \u043A\u043E\u043D\u0435\u0446!\n\n1 - \u041D\u0430\u0447\u0430\u0442\u044C
     \u0441\u043D\u0430\u0447\u0430\u043B\u043E\n"
   LocationName: "\u0414\u0436\u0443\u043D\u0433\u043B\u0438"
-  LocationImage: {fileID: 0}
+  LocationImage: {fileID: 21300000, guid: 9965f7717e684444e8cb19225d2e888a, type: 3}
   Steps:
   - {fileID: 56965442}
 --- !u!4 &896092900
@@ -1337,6 +1332,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 296379970}
+  - {fileID: 1127697363}
   m_Father: {fileID: 1421387375}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1356,17 +1352,17 @@ MonoBehaviour:
     \u0432\u044B \u043D\u0430\u0445\u043E\u0434\u0438\u0442\u0435 \u043D\u043E\u0436,
     \u043A\u0440\u0435\u043C\u043D\u0438\u0439 \u0438 \u0431\u0443\u0442\u044B\u043B\u043A\u0443
     \u0440\u043E\u043C\u0430. \u042D\u0442\u043E \u0441\u043E\u0432\u0441\u0435\u043C
-    \u043D\u0435\u043F\u043B\u043E\u0445\u043E. \u041D\u043E \u043D\u0430\u043C \u043D\u0443\u0436\u043D\u043E
+    \u043D\u0435\u043F\u043B\u043E\u0445\u043E. \u041D\u043E \u0432\u0430\u043C \u043D\u0443\u0436\u043D\u043E
     \u043D\u0430\u0439\u0442\u0438 \u043F\u0440\u0435\u0441\u043D\u0443\u044E \u0432\u043E\u0434\u0443.\n\n1
     - \u0412\u044B\u043F\u0438\u0442\u044C \u043D\u0435\u043C\u043D\u043E\u0433\u043E
-    \u0440\u043E\u043C\u0430 \u0434\u043B\u044F \u0443\u0442\u0430\u043B\u0435\u043D\u0438\u044F
+    \u0440\u043E\u043C\u0430 \u0434\u043B\u044F \u0443\u0442\u043E\u043B\u0435\u043D\u0438\u044F
     \u0436\u0430\u0436\u0434\u044B\n2 - \u041F\u0440\u043E\u0432\u0435\u0440\u0438\u0442\u044C
     \u0434\u0436\u0443\u043D\u0433\u0438\n"
   LocationName: "\u041F\u043B\u044F\u0436 2"
-  LocationImage: {fileID: 0}
+  LocationImage: {fileID: 21300000, guid: 317f1d2768c0c5a41b9b15be004c4e2c, type: 3}
   Steps:
   - {fileID: 296379971}
-  - {fileID: 2012228260}
+  - {fileID: 1127697362}
 --- !u!1 &905060398
 GameObject:
   m_ObjectHideFlags: 0
@@ -1471,8 +1467,8 @@ MonoBehaviour:
     \u043F\u0430\u0434\u0430\u0435\u0442\u0435 \u043E\u0442 \u0431\u0435\u0441\u0441\u0438\u043B\u0438\u044F
     \u0438 \u0437\u0430\u0441\u044B\u043F\u0430\u0435\u0442\u0435 \u0432\u0435\u0447\u043D\u044B\u043C
     \u0441\u043D\u043E\u043C....\n\n1 - \u041D\u0430\u0447\u0430\u0442\u044C \u0441\u043D\u0430\u0447\u0430\u043B\u043E"
-  LocationName: "\u041F\u043B\u044F\u0436"
-  LocationImage: {fileID: 0}
+  LocationName: 
+  LocationImage: {fileID: 21300000, guid: 06be5fd5814b2b94a8f102c19a40398b, type: 3}
   Steps:
   - {fileID: 56965442}
 --- !u!1 &935591157
@@ -1504,9 +1500,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9e761fe693d4aa696edea8ce6304b78, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Content: "\u041E\u0441\u043C\u0430\u0442\u0440\u0438\u0432\u0430\u044F \u0431\u0435\u0440\u0435\u0433
+  Content: "\u041E\u0441\u043C\u0430\u0442\u0440\u0438\u0432\u0430\u044F \u0431\u0435\u0440\u0435\u0433,
     \u0432\u044B \u043E\u0431\u043D\u0430\u0440\u0443\u0436\u0438\u043B\u0438 \u043E\u0431\u043B\u043E\u043C\u043A\u0438
-    \u043A\u043E\u0440\u043E\u0431\u043B\u044F \u0438 \u043D\u0430\u0448\u043B\u0438
+    \u043A\u043E\u0440\u0430\u0431\u043B\u044F \u0438 \u043D\u0430\u0448\u043B\u0438
     \u0432 \u043D\u0438\u0445 \u043F\u0438\u0441\u0442\u043E\u043B\u0435\u0442 \u0441
     \u043E\u0434\u043D\u0438\u043C \u043F\u0430\u0442\u0440\u043E\u043D\u043E\u043C.\n\n1
     - \u0417\u0430\u043A\u043E\u043D\u0447\u0438\u0442\u044C \u0441\u0432\u043E\u0438
@@ -1514,7 +1510,7 @@ MonoBehaviour:
     \u043F\u043E\u0438\u0441\u043A\u0438 \u043F\u043E \u043F\u043B\u044F\u0436\u0443\n3
     - \u041F\u0440\u043E\u0432\u0435\u0440\u0438\u0442\u044C \u0434\u0436\u0443\u043D\u0433\u043B\u0438"
   LocationName: "\u041F\u043B\u044F\u0436"
-  LocationImage: {fileID: 0}
+  LocationImage: {fileID: 21300000, guid: 0583c98d8be2627459e5977ccc358611, type: 3}
   Steps:
   - {fileID: 1490359280}
   - {fileID: 143716527}
@@ -1615,6 +1611,70 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 946567752}
   m_CullTransparentMesh: 1
+--- !u!1 &977378047
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 977378048}
+  - component: {fileID: 977378049}
+  m_Layer: 0
+  m_Name: Jungle (2.0)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &977378048
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 977378047}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1194447869}
+  - {fileID: 1724496160}
+  - {fileID: 25273375}
+  m_Father: {fileID: 1466474568}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &977378049
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 977378047}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9e761fe693d4aa696edea8ce6304b78, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Content: "\u041F\u0440\u043E\u0434\u043E\u043B\u0436\u0438\u0432 \u043F\u0443\u0442\u044C
+    \u043F\u043E \u0434\u0436\u0443\u043D\u0433\u043B\u044F\u043C, \u043C\u044B \u043D\u0430\u0445\u043E\u0434\u0438\u043C
+    \u0438\u0441\u0442\u043E\u0447\u043D\u0438\u043A \u043F\u0440\u0435\u0441\u043D\u043E\u0439
+    \u0432\u043E\u0434\u044B. \u0423\u0442\u0430\u043B\u0438\u0432 \u0436\u0430\u0436\u0434\u0443,
+    \u043E\u0431\u0434\u0443\u043C\u044B\u0432\u0430\u0435\u043C \u043F\u043B\u0430\u043D
+    \u0432\u044B\u0436\u0438\u0432\u0430\u043D\u0438\u044F. \u0423\u0436\u0435 \u0431\u043B\u0438\u0437\u0438\u0442\u0441\u044F
+    \u043D\u043E\u0447\u044C.\n\n1 - \u0420\u0430\u0437\u0432\u0435\u0441\u0442\u0438
+    \u043E\u0433\u043E\u043D\u044C \u043D\u0430 \u043C\u0435\u0441\u0442\u0435\n2
+    - \u0412\u0435\u0440\u043D\u0443\u0442\u044C\u0441\u044F \u043D\u0430 \u043F\u043B\u044F\u0436,
+    \u0438 \u0440\u0430\u0437\u0432\u0435\u0441\u0442\u0438 \u043E\u0433\u043E\u043D\u044C
+    \u0442\u0430\u043C.\n3 - \u0418\u0441\u0441\u043B\u0435\u0434\u043E\u0432\u0430\u0442\u044C
+    \u0441\u043A\u0435\u043B\u0435\u0442"
+  LocationName: "\u0414\u0436\u0443\u043D\u0433\u043B\u0438"
+  LocationImage: {fileID: 21300000, guid: 876028144a72d3c45838077540f0b695, type: 3}
+  Steps:
+  - {fileID: 1194447868}
+  - {fileID: 1724496159}
+  - {fileID: 25273374}
 --- !u!1 &1013494005
 GameObject:
   m_ObjectHideFlags: 0
@@ -1666,7 +1726,7 @@ MonoBehaviour:
     \u043F\u043B\u044F\u0436\u0435. \u0412\u0430\u043C \u043E\u0447\u0435\u043D\u044C
     \u043F\u043B\u043E\u0445\u043E. \u0411\u043E\u043B\u0438\u0442 \u0433\u043E\u043B\u043E\u0432\u0430
     . \u0425\u043E\u0447\u0435\u0442\u0441\u044F \u0441\u0438\u043B\u044C\u043D\u043E
-    \u043F\u0438\u0442\u044C.\u0412\u0430\u0448\u0438 \u0434\u0435\u0439\u0441\u0442\u0432\u0438\u044F...\n\n1
+    \u043F\u0438\u0442\u044C. \u0412\u0430\u0448\u0438 \u0434\u0435\u0439\u0441\u0442\u0432\u0438\u044F:\n\n1
     - \u041F\u0440\u043E\u0439\u0442\u0438\u0441\u044C \u0432\u0434\u043E\u043B\u044C
     \u0431\u0435\u0440\u0435\u0433\u0430\n2 - \u041F\u0440\u043E\u0432\u0435\u0440\u0438\u0442\u044C
     \u0434\u0436\u0443\u043D\u0433\u0438\n3 - \u041E\u0441\u043C\u043E\u0442\u0440\u0435\u0442\u044C
@@ -1775,12 +1835,14 @@ MonoBehaviour:
     \u0412 \u0433\u043B\u0430\u0437\u0430\u0445 \u043D\u0430\u0447\u0438\u043D\u0430\u0435\u0442
     \u0442\u0435\u043C\u043D\u0435\u0442\u044C\n\n1 - \u041F\u0440\u043E\u0434\u043E\u043B\u0436\u0438\u0442\u044C
     \u043F\u0443\u0442\u044C \u043F\u043E \u0434\u0436\u0443\u043D\u0433\u043B\u044F\u043C\n2
-    - \u041E\u0441\u043C\u043E\u0442\u0440\u0435\u0442\u044C \u0441\u0435\u0431\u044F"
+    - \u041E\u0441\u043C\u043E\u0442\u0440\u0435\u0442\u044C \u0441\u0435\u0431\u044F\n3
+    - \u0418\u0434\u0442\u0438 \u043D\u0430\u0437\u0430\u0434"
   LocationName: "\u0414\u0436\u0443\u043D\u0433\u043B\u0438"
-  LocationImage: {fileID: 0}
+  LocationImage: {fileID: 21300000, guid: f507861c133cca24bbf482685926f499, type: 3}
   Steps:
   - {fileID: 919101014}
   - {fileID: 1652060803}
+  - {fileID: 1549614534}
 --- !u!4 &1067135745
 Transform:
   m_ObjectHideFlags: 0
@@ -1794,6 +1856,176 @@ Transform:
   m_Children: []
   m_Father: {fileID: 935591159}
   m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1127697361
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1127697363}
+  - component: {fileID: 1127697362}
+  m_Layer: 0
+  m_Name: Jungle 0.2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1127697362
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1127697361}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9e761fe693d4aa696edea8ce6304b78, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Content: "\u0412 \u0434\u0436\u0443\u043D\u0433\u043B\u044F\u0445 \u043D\u0430
+    \u0432\u0430\u0441 \u043D\u0430\u0431\u0440\u0430\u0441\u044B\u0432\u0430\u0435\u0442\u0441\u044F
+    \u044F\u0433\u0443\u0430\u0440. \u041E\u0434\u043D\u0430\u043A\u043E \u0432\u044B
+    \u0443\u0441\u043F\u0435\u0432\u0430\u0439\u0442\u0435 \u0432 \u043F\u043E\u0441\u043B\u0435\u0434\u043D\u0438\u0435
+    \u0441\u0443\u043A\u0443\u043D\u0434\u044B \u0438\u0441\u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u044C
+    \u043F\u0438\u0441\u0442\u043E\u043B\u0435\u0442 \u0438 \u0443\u0434\u0430\u0447\u043D\u044B\u043C
+    \u0432\u044B\u0441\u0442\u0440\u0435\u043B\u043E\u043C \u043F\u043E\u0440\u0430\u0437\u0438\u0442\u044C
+    \u0437\u0432\u0435\u0440\u044F.\n\n1 - \u041F\u0440\u043E\u0434\u043E\u043B\u0436\u0438\u0442\u044C
+    \u043F\u0443\u0442\u044C \u043F\u043E \u0434\u0436\u0443\u043D\u0433\u043B\u044F\u043C\n2
+    - \u041E\u0441\u043C\u043E\u0442\u0440\u0435\u0442\u044C \u0437\u0432\u0435\u0440\u044F"
+  LocationName: "\u0414\u0436\u0443\u043D\u0433\u043B\u0438"
+  LocationImage: {fileID: 21300000, guid: f507861c133cca24bbf482685926f499, type: 3}
+  Steps:
+  - {fileID: 977378049}
+  - {fileID: 1913198379}
+--- !u!4 &1127697363
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1127697361}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1913198380}
+  m_Father: {fileID: 902644351}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1176224102
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1176224103}
+  - component: {fileID: 1176224104}
+  m_Layer: 0
+  m_Name: "\u041F\u043B\u044F\u0436 3 (2)"
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1176224103
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1176224102}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1666090869}
+  - {fileID: 1495788935}
+  m_Father: {fileID: 1466474568}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1176224104
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1176224102}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9e761fe693d4aa696edea8ce6304b78, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Content: "\u041D\u0430\u0441\u0442\u0430\u043B \u043D\u043E\u0432\u044B\u0439 \u0434\u0435\u043D\u044C.\n\u0427\u0435\u043C
+    \u0432\u044B \u0431\u0443\u0434\u0435\u0442\u0435 \u0437\u0430\u043D\u0438\u043C\u0430\u0442\u044C\u0441\u044F
+    \u0441\u0435\u0433\u043E\u0434\u043D\u044F?\n\n1 - \u041F\u043E\u0441\u0442\u0440\u043E\u0438\u0442\u044C
+    \u043F\u043B\u043E\u0442 \u0438 \u0443\u043F\u043B\u044B\u0442\u044C\n2 - \u041F\u0440\u043E\u0434\u043E\u043B\u0436\u0438\u0442\u044C
+    \u0438\u0441\u0441\u043B\u0435\u0434\u043E\u0432\u0430\u043D\u0438\u0435 \u0434\u0436\u0443\u043D\u0433\u043B\u0435\u0439\n3
+    - \u041F\u043E\u0441\u0442\u0440\u043E\u0438\u0442\u044C \u0434\u043E\u043C"
+  LocationName: "\u041F\u043B\u044F\u0436"
+  LocationImage: {fileID: 21300000, guid: 1c55ee851dec59144bcf6d90603922a7, type: 3}
+  Steps:
+  - {fileID: 1495788936}
+  - {fileID: 1666090870}
+  - {fileID: 1666090870}
+--- !u!1 &1194447867
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1194447869}
+  - component: {fileID: 1194447868}
+  m_Layer: 0
+  m_Name: ABa GM
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1194447868
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1194447867}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9e761fe693d4aa696edea8ce6304b78, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Content: "\u0412\u044B \u0440\u0435\u0448\u0438\u043B\u0438 \u043E\u0441\u0442\u0430\u0442\u044C\u0441\u044F
+    \u0432 \u0434\u0436\u0443\u043D\u0433\u043B\u044F\u0445. \u041D\u043E\u0447\u044C\u044E
+    \u043A \u0432\u0430\u043C \u043F\u043E\u0434\u043A\u0440\u0430\u043B\u0438\u0441\u044C
+    \u043C\u0435\u0441\u0442\u043D\u044B\u0435 \u0430\u0431\u043E\u0440\u0438\u0433\u0435\u043D\u044B.
+    \u0412\u044B \u043F\u044B\u0442\u0430\u043B\u0438\u0441\u044C \u043E\u0442 \u043D\u0438\u0445
+    \u043E\u0442\u0431\u0438\u0442\u044C\u0441\u044F, \u043D\u043E \u0432\u044B \u043F\u043E\u0433\u0438\u0431\u0430\u0435\u0442\u0435.\n\n1
+    - \u041D\u0430\u0447\u0430\u0442\u044C \u0441\u043D\u0430\u0447\u0430\u043B\u043E"
+  LocationName: "\u0414\u0436\u0443\u043D\u0433\u043B\u0438"
+  LocationImage: {fileID: 21300000, guid: 7a685eb4c2f92e949be608bf8f0983a3, type: 3}
+  Steps:
+  - {fileID: 56965442}
+--- !u!4 &1194447869
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1194447867}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 977378048}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1196693435
 GameObject:
@@ -1954,7 +2186,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: 191b68afea7eeb743bac104ef4406b6d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2130,11 +2362,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Content: "\u0412\u044B \u0437\u043D\u0430\u0442\u043D\u043E \u043D\u0430\u043A\u0438\u0434\u0430\u043B\u0438\u0441\u044C
-    \u0438 \u0443\u0441\u043D\u0443\u043B\u0438 \u043D\u0430 \u043F\u0435\u0441\u043A\u0435\n\n1
+    \u0438 \u0443\u0441\u043D\u0443\u043B\u0438 \u043D\u0430 \u043F\u0435\u0441\u043A\u0435.\n\n1
     - *\u0425\u0440\u0430\u043F*\n2 - *\u0425\u0440\u0430\u043F*\n3 - *\u0425\u0440\u0430\u043F.
     \u0425\u0440\u0430\u043F*\n"
   LocationName: "\u041F\u043B\u044F\u0436 2"
-  LocationImage: {fileID: 0}
+  LocationImage: {fileID: 21300000, guid: 9d0c1d268ad119648a60b668a7be3479, type: 3}
   Steps:
   - {fileID: 1013494007}
 --- !u!1 &1421387374
@@ -2167,7 +2399,6 @@ Transform:
   m_Children:
   - {fileID: 645955602}
   - {fileID: 902644351}
-  - {fileID: 2012228259}
   m_Father: {fileID: 717281054}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2185,19 +2416,74 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Content: "\u041E\u0441\u043C\u0430\u0442\u0440\u0438\u0432\u0430\u044F \u0431\u0435\u0440\u0435\u0433
     \u0432\u044B \u043E\u0431\u043D\u0430\u0440\u0443\u0436\u0438\u043B\u0438 \u043E\u0431\u043B\u043E\u043C\u043A\u0438
-    \u043A\u043E\u0440\u043E\u0431\u043B\u044F \u0438 \u043D\u0430\u0448\u043B\u0438
+    \u043A\u043E\u0440\u0430\u0431\u043B\u044F \u0438 \u043D\u0430\u0448\u043B\u0438
     \u0432 \u043D\u0438\u0445 \u043F\u0438\u0441\u0442\u043E\u043B\u0435\u0442 \u0441
     \u043E\u0434\u043D\u0438\u043C \u043F\u0430\u0442\u0440\u043E\u043D\u043E\u043C.\n\n1
     - \u0417\u0430\u043A\u043E\u043D\u0447\u0438\u0442\u044C \u0441\u0432\u043E\u0438
     \u043C\u0443\u0447\u0435\u043D\u0438\u044F...\n2 - \u041F\u0440\u043E\u0434\u043E\u043B\u0436\u0438\u0442\u044C
-    \u043F\u043E\u0438\u0441\u043A\u0438 \u043F\u043E \u043F\u043B\u044F\u0436\u0443\n3
-    - \u041F\u0440\u043E\u0432\u0435\u0440\u0438\u0442\u044C \u0434\u0436\u0443\u043D\u0433\u043B\u0438"
+    \u043F\u043E\u0438\u0441\u043A\u0438 \u043F\u043E \u043F\u043B\u044F\u0436\u0443\n"
   LocationName: "\u041F\u043B\u044F\u0436"
-  LocationImage: {fileID: 0}
+  LocationImage: {fileID: 21300000, guid: 0583c98d8be2627459e5977ccc358611, type: 3}
   Steps:
   - {fileID: 645955603}
   - {fileID: 902644352}
-  - {fileID: 2012228260}
+--- !u!1 &1465098765
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1465098766}
+  - component: {fileID: 1465098767}
+  m_Layer: 0
+  m_Name: Jungli
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1465098766
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1465098765}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1652060802}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1465098767
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1465098765}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9e761fe693d4aa696edea8ce6304b78, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Content: "\u0412\u0430\u043C \u043E\u0447\u0435\u043D\u044C \u043F\u043E\u0432\u0435\u0437\u043B\u043E.
+    \u0421\u043F\u0443\u0441\u0442\u044F \u043D\u0435\u0441\u043A\u043E\u043B\u044C\u043A\u043E
+    \u0447\u0430\u0441\u043E\u0432 \u0432\u044B \u043F\u0440\u0438\u0448\u043B\u0438
+    \u0432 \u0441\u0435\u0431\u044F. \u0421\u043B\u0430\u0431\u043E\u0441\u0442\u044C
+    \u0435\u0449\u0451 \u043E\u0449\u0443\u0449\u0430\u043B\u0430\u0441\u044C, \u043D\u043E
+    \u0432\u044B \u043C\u043E\u0436\u0435\u0442\u0435 \u043F\u0440\u043E\u0434\u043E\u043B\u0436\u0430\u0442\u044C
+    \u0441\u0432\u043E\u0439 \u043F\u0443\u0442\u044C.\n\n2 - \u041F\u0440\u043E\u0434\u043E\u043B\u0436\u0438\u0442\u044C
+    \u043F\u043E\u0438\u0441\u043A\u0438 \u043F\u043E \u043F\u043B\u044F\u0436\u0443\n3
+    - \u041F\u0440\u043E\u0432\u0435\u0440\u0438\u0442\u044C \u0434\u0436\u0443\u043D\u0433\u043B\u0438"
+  LocationName: "\u041F\u043B\u044F\u0436"
+  LocationImage: {fileID: 21300000, guid: 317f1d2768c0c5a41b9b15be004c4e2c, type: 3}
+  Steps:
+  - {fileID: 902644352}
+  - {fileID: 0}
 --- !u!1 &1466474567
 GameObject:
   m_ObjectHideFlags: 0
@@ -2228,6 +2514,8 @@ Transform:
   - {fileID: 56965443}
   - {fileID: 352649414}
   - {fileID: 1013494006}
+  - {fileID: 977378048}
+  - {fileID: 1176224103}
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2270,7 +2558,7 @@ MonoBehaviour:
     \u041A\u043E\u043D\u0435\u0446!)\n\n1 - \u041D\u0430\u0447\u0430\u0442\u044C
     \u0441\u043D\u0430\u0447\u0430\u043B\u043E"
   LocationName: "\u041F\u043B\u044F\u0436"
-  LocationImage: {fileID: 0}
+  LocationImage: {fileID: 21300000, guid: 06be5fd5814b2b94a8f102c19a40398b, type: 3}
   Steps:
   - {fileID: 56965442}
 --- !u!4 &1490359281
@@ -2287,6 +2575,62 @@ Transform:
   m_Father: {fileID: 935591159}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1495788934
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1495788935}
+  - component: {fileID: 1495788936}
+  m_Layer: 0
+  m_Name: Raft
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1495788935
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1495788934}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1176224103}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1495788936
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1495788934}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9e761fe693d4aa696edea8ce6304b78, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Content: "\u0412\u044B \u0441\u043C\u043E\u0433\u043B\u0438 \u043F\u043E\u0441\u0442\u0440\u043E\u0438\u0442\u044C
+    \u043F\u043B\u043E\u0442 \u0431\u043B\u0430\u0433\u043E\u0434\u0430\u0440\u044F
+    \u0438\u043D\u0441\u0442\u0440\u0443\u043C\u0435\u043D\u0442\u0443, \u043A\u043E\u0442\u043E\u0440\u044B\u0439
+    \u0443 \u0432\u0430\u0441 \u0431\u044B\u043B. \u041E\u0442\u043F\u0440\u0430\u0432\u0438\u0432\u0448\u0438\u0441\u044C
+    \u0432 \u043F\u043B\u0430\u0432\u0430\u043D\u0438\u0435, \u0432\u044B \u0447\u0435\u0440\u0435\u0437
+    \u043F\u0430\u0440\u0443 \u0434\u043D\u0435\u0439 \u043D\u0430\u0442\u043A\u043D\u0443\u043B\u0438\u0441\u044C
+    \u043D\u0430 \u0433\u0440\u0443\u0437\u043E\u0432\u043E\u0439 \u043A\u043E\u0440\u0430\u0431\u043B\u044C.
+    \u041D\u0430 \u044D\u0442\u043E\u043C \u0438\u0441\u0442\u043E\u0440\u0438\u044F
+    \u0437\u0430\u043A\u0430\u043D\u0447\u0438\u0432\u0430\u0435\u0442\u0441\u044F.
+    \u0412\u044B \u0432\u044B\u0436\u0438\u043B\u0438!"
+  LocationName: "\u041F\u043B\u044F\u0436"
+  LocationImage: {fileID: 21300000, guid: 287d27f3cfe36c846bf4f718d37ddab9, type: 3}
+  Steps: []
 --- !u!1 &1549614533
 GameObject:
   m_ObjectHideFlags: 0
@@ -2325,7 +2669,7 @@ MonoBehaviour:
     \u043E\u0442 \u043F\u043E\u0442\u0435\u0440\u0438 \u043A\u0440\u043E\u0432\u0438.\n\n1
     - \u041D\u0430\u0447\u0430\u0442\u044C \u0441\u043D\u0430\u0447\u0430\u043B\u043E"
   LocationName: "\u041F\u043B\u044F\u0436"
-  LocationImage: {fileID: 0}
+  LocationImage: {fileID: 21300000, guid: 06be5fd5814b2b94a8f102c19a40398b, type: 3}
   Steps:
   - {fileID: 56965442}
 --- !u!4 &1549614535
@@ -2540,7 +2884,8 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 1465098766}
   m_Father: {fileID: 143716528}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2568,9 +2913,127 @@ MonoBehaviour:
     \u0441\u043E\u0437\u043D\u0430\u043D\u0438\u0435..........\n\n1 - .............\n2
     - .............\n3 - .............\n4 - ............."
   LocationName: "\u041F\u043B\u044F\u0436"
-  LocationImage: {fileID: 0}
+  LocationImage: {fileID: 21300000, guid: 317f1d2768c0c5a41b9b15be004c4e2c, type: 3}
   Steps:
-  - {fileID: 1652060803}
+  - {fileID: 1465098767}
+  - {fileID: 1465098767}
+  - {fileID: 1465098767}
+  - {fileID: 1465098767}
+--- !u!1 &1666090868
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1666090869}
+  - component: {fileID: 1666090870}
+  m_Layer: 0
+  m_Name: Hut
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1666090869
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1666090868}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1176224103}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1666090870
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1666090868}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9e761fe693d4aa696edea8ce6304b78, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Content: "\u0412\u044B \u0441\u043C\u043E\u0433\u043B\u0438 \u043F\u043E\u0441\u0442\u0440\u043E\u0438\u0442\u044C
+    \u0434\u043E\u043C \u0431\u043B\u0430\u0433\u043E\u0434\u0430\u0440\u044F \u0438\u043D\u0441\u0442\u0440\u0443\u043C\u0435\u043D\u0442\u0443,
+    \u043A\u043E\u0442\u043E\u0440\u044B\u0439 \u0443 \u0432\u0430\u0441 \u0431\u044B\u043B.
+    \u0422\u0435\u043F\u044C\u0440\u044C \u0432\u044B \u043C\u043E\u0436\u0435\u0442\u0435
+    \u0436\u0438\u0442\u044C \u043D\u0430 \u043E\u0441\u0442\u0440\u043E\u0432\u0435
+    \u043F\u043E\u0434 \u0437\u0430\u0449\u0438\u0442\u043E\u0439 \u0434\u043E\u043C\u0430,
+    \u043E\u0434\u043D\u0430\u043A\u043E \u043D\u0435 \u0437\u0430\u0431\u044B\u0432\u0430\u0442\u044C
+    \u043F\u0440\u043E \u043E\u0441\u0442\u043E\u0440\u043E\u0436\u043D\u043E\u0441\u0442\u044C
+    \u0438 \u0438\u0437\u0431\u0435\u0433\u0430\u0442\u044C \u0441\u0442\u0440\u0430\u043D\u043D\u044B\u0445,
+    \u043F\u043E\u0434\u043E\u0437\u0440\u0438\u0442\u0435\u043B\u044C\u043D\u044B\u0445
+    \u0432\u0435\u0449\u0435\u0439. \u041D\u0430 \u044D\u0442\u043E\u043C \u0438\u0441\u0442\u043E\u0440\u0438\u044F
+    \u043F\u0440\u0435\u0440\u044B\u0432\u0430\u0435\u0442\u0441\u044F \u043D\u0430
+    \u043E\u0442\u043D\u043E\u0441\u0438\u0442\u0435\u043B\u044C\u043D\u043E \u0445\u043E\u0440\u043E\u0448\u0435\u0439
+    \u043D\u043E\u0442\u0435...\u041F\u043E \u043A\u0440\u0430\u0439\u043D\u0435\u0439
+    \u043C\u0435\u0440\u0435 \u0432\u044B \u0436\u0438\u0432\u044B)"
+  LocationName: "\u041F\u043B\u044F\u0436"
+  LocationImage: {fileID: 21300000, guid: bdd5edac67533f44f808cee83014284d, type: 3}
+  Steps: []
+--- !u!1 &1724496158
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1724496160}
+  - component: {fileID: 1724496159}
+  m_Layer: 0
+  m_Name: "\u041F\u043B\u044F\u0436 3"
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1724496159
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1724496158}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9e761fe693d4aa696edea8ce6304b78, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Content: "\u0412\u044B \u0432\u043E\u0437\u0432\u0440\u0430\u0449\u0430\u0435\u0442\u0435\u0441\u044C
+    \u043D\u0430 \u043F\u043B\u044F\u0436. \u0422\u0430\u043C \u0432\u044B \u0440\u0430\u0437\u0432\u043E\u0434\u0438\u0442\u0435
+    \u043E\u0433\u043E\u043D\u044C \u0438 \u0436\u0430\u0440\u0438\u0442\u0435 \u043C\u044F\u0441\u043E.
+    \u0423\u0442\u043E\u043B\u0438\u0432 \u0433\u043E\u043B\u043E\u0434 \u0432\u044B
+    \u043B\u043E\u0436\u0438\u0442\u0435\u0441\u044C \u0441\u043F\u0430\u0442\u044C.\n\n1
+    - \u0421\u043F\u0430\u0442\u044C"
+  LocationName: "\u041F\u043B\u044F\u0436"
+  LocationImage: {fileID: 21300000, guid: dfd372c7b00f04a4ab0b9bc17bfc2bf6, type: 3}
+  Steps:
+  - {fileID: 1975479037}
+--- !u!4 &1724496160
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1724496158}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1975479038}
+  m_Father: {fileID: 977378048}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1744995299
 GameObject:
   m_ObjectHideFlags: 0
@@ -2869,6 +3332,60 @@ MonoBehaviour:
   LocationImage: {fileID: 0}
   Steps:
   - {fileID: 56965442}
+--- !u!1 &1913198378
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1913198380}
+  - component: {fileID: 1913198379}
+  m_Layer: 0
+  m_Name: Zver 1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1913198379
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1913198378}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9e761fe693d4aa696edea8ce6304b78, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Content: "\u0417\u0432\u0435\u0440\u044C  \u043C\u0435\u0440\u0442\u0432. \u0418\u0441\u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u044C
+    \u043D\u043E\u0436, \u0447\u0442\u043E\u0431\u044B \u0432\u0437\u044F\u0442\u044C
+    \u0435\u0433\u043E \u043C\u044F\u0441\u043E..\n\n1 - \u0412\u0437\u044F\u0442\u044C
+    \u043C\u044F\u0441\u043E \u0438 \u043F\u0440\u043E\u0434\u043E\u043B\u0436\u0438\u0442\u044C
+    \u043F\u0443\u0442\u044C \u043F\u043E \u0434\u0436\u0443\u043D\u0433\u043B\u044F\u043C\n2
+    - \u041E\u0441\u0442\u0430\u0432\u0438\u0442\u044C \u0432 \u043F\u043E\u043A\u043E\u0435"
+  LocationName: "\u0414\u0436\u0443\u043D\u0433\u043B\u0438"
+  LocationImage: {fileID: 21300000, guid: f507861c133cca24bbf482685926f499, type: 3}
+  Steps:
+  - {fileID: 977378049}
+  - {fileID: 977378049}
+--- !u!4 &1913198380
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1913198378}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1127697363}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1975282642
 GameObject:
   m_ObjectHideFlags: 0
@@ -2935,7 +3452,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &2012228258
+--- !u!1 &1975479036
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2943,58 +3460,52 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 2012228259}
-  - component: {fileID: 2012228260}
+  - component: {fileID: 1975479038}
+  - component: {fileID: 1975479037}
   m_Layer: 0
-  m_Name: Jungli
+  m_Name: "\u041F\u043B\u044F\u0436 3 (1)"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &2012228259
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2012228258}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 232347999}
-  m_Father: {fileID: 1421387375}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2012228260
+--- !u!114 &1975479037
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2012228258}
+  m_GameObject: {fileID: 1975479036}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d9e761fe693d4aa696edea8ce6304b78, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Content: "\u0412 \u0434\u0436\u0443\u043D\u0433\u043B\u044F\u0445 \u043D\u0430
-    \u0432\u0430\u0441 \u043D\u0430\u0431\u0440\u0430\u0441\u044B\u0432\u0430\u0435\u0442\u0441\u044F
-    \u043B\u0435\u043E\u043F\u0430\u0440. \u041E\u0434\u043D\u0430\u043A\u043E \u0432\u044B
-    \u0443\u0441\u043F\u0435\u0432\u0430\u0439\u0442\u0435 \u0432 \u043F\u043E\u0441\u043B\u0435\u0434\u043D\u0438\u0435
-    \u0441\u0443\u043A\u0443\u043D\u0434\u044B \u0438\u0441\u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u044C
-    \u043F\u0438\u0441\u0442\u043E\u043B\u0435\u0442 \u0438 \u0443\u0434\u0430\u0447\u043D\u044B\u043C
-    \u0432\u044B\u0441\u0442\u0440\u0435\u043B\u043E\u043C \u043F\u043E\u0440\u0430\u0437\u0438\u0442\u044C
-    \u0437\u0432\u0435\u0440\u044F.\n\n1 - \u041F\u0440\u043E\u0434\u043E\u043B\u0436\u0438\u0442\u044C
-    \u043F\u0443\u0442\u044C \u043F\u043E \u0434\u0436\u0443\u043D\u0433\u043B\u044F\u043C\n2
-    - \u041E\u0441\u043C\u043E\u0442\u0440\u0435\u0442\u044C \u0437\u0432\u0435\u0440\u044F\n3
-    - \u0412\u0435\u0440\u043D\u0443\u0442\u044C\u0441\u044F \u043D\u0430 \u043F\u043B\u044F\u0436,
-    \u0447\u0442\u043E\u0431\u044B \u043E\u0441\u043C\u043E\u0442\u0440\u0435\u0442\u044C\u0441\u044F
-    \u043F\u043E\u043B\u0443\u0447\u0448\u0435"
-  LocationName: "\u0414\u0436\u0443\u043D\u0433\u043B\u0438"
-  LocationImage: {fileID: 0}
-  Steps: []
+  Content: "\u041D\u043E\u0447\u044C\u044E \u0432\u044B \u0441\u043B\u044B\u0448\u0438\u0442\u0435
+    \u0441\u0442\u0440\u0430\u043D\u043D\u044B\u0435 \u0437\u0432\u0443\u043A \u0434\u043E\u043D\u043E\u0441\u044F\u0449\u0438\u0435\u0441\u044F
+    \u0438\u0437 \u0433\u043B\u0443\u0431\u0438\u043D\u044B \u043E\u0441\u0442\u0440\u043E\u0432\u0430.
+    \u041E\u0434\u043D\u0430\u043A\u043E \u0431\u043E\u043B\u044C\u0448\u0435 \u0432\u0430\u0441
+    \u043D\u0438\u0447\u0435\u0433\u043E \u043D\u0435 \u0431\u0435\u0441\u043F\u043E\u043A\u043E\u0438\u043B\u043E
+    \u0438 \u0434\u043E \u0443\u0442\u0440\u0430 \u0432\u044B \u0441\u043C\u043E\u0433\u043B\u0438 
+    \u043F\u043E\u0441\u043F\u0430\u0442\u044C.\n\n1 - \u0414\u0430\u043B\u0435\u0435"
+  LocationName: "\u041F\u043B\u044F\u0436"
+  LocationImage: {fileID: 21300000, guid: 52d9378fa08d90046ae43dd68250386d, type: 3}
+  Steps:
+  - {fileID: 1176224104}
+--- !u!4 &1975479038
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1975479036}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1724496160}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2017469389
 GameObject:
   m_ObjectHideFlags: 0
@@ -3046,7 +3557,7 @@ MonoBehaviour:
     \u0412\u042B\u043F\u043F\u0438\u0426\u044C!! \u042D\u042D \u0440\u043E\u043C\u0430!\n2
     - \u041F\u0440\u043E\u0432\u0435\u0440\u0438\u0442\u044C \u0434\u0436\u0443\u043D\u0433\u0438\n"
   LocationName: "\u041F\u043B\u044F\u0436 2"
-  LocationImage: {fileID: 0}
+  LocationImage: {fileID: 21300000, guid: b502f0bbd71d039408c120b95448773c, type: 3}
   Steps:
-  - {fileID: 2017469391}
-  - {fileID: 2012228260}
+  - {fileID: 1308597076}
+  - {fileID: 1127697362}
